@@ -19,6 +19,7 @@ else
     RPS1="%{$fg[yellow]%}rbenv:%{$reset_color%}%{$fg[red]%}\$(rbenv version | sed -e 's/ (set.*$//')%{$reset_color%} $EPS1"
   fi
 fi
+export rvmsudo_secure_path=1
 
 # Prompt setup.
 #
